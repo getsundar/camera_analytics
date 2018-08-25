@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: excellenceInMotion;
+    src: url("../assets/fonts/ExcellenceInMotion.woff");
+}
+
+@font-face {
+    font-family: excellenceInMotionMedium;
+    src: url("../assets/fonts/ExcellenceInMotion_Medium.woff");
+}
+
+.selector-for-some-widget {
+    box-sizing: content-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+
+.logoHolder {
+    width: 18%;
+    margin-right: 15px;
+}
+
+.logo {
+    width: 100%;
+    height: auto;
+}
+
+.headerText {
+    font-family: excellenceInMotionMedium
+}
+
+.mainHolder {
+    height: 87vh;
+    position: absolute
+}
+
+.canvasHolder {
+    height: 80vh;
+}
+
+.canvas {
+    border: 1px solid #00a1de;
+    height: 98%;
+    width: 100%;
+    margin-top: 6px;
+}
+
+.detailsHolder {
+    background-color: #00a1de;
+    height: 8vh;
+    color: white;
+    font-family: excellenceInMotion;
+    font-size: 23px;
+}
+
+.marginLarge {
+    margin-right: 35px;
+}
+
+.marginMedium {
+    margin-right: 25px;
+}
+
+.marginSmall {
+    margin-right: 5px;
+}
+
+header {
+    background-color: #00a1de;
+    padding: 10px;
+    text-align: left;
+    font-size: 25px;
+    color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+
+@media ( max-width: 1200px) {
+    .detailsHolder {
+        font-size: 20px;
+    }
+    .marginLarge {
+        margin-right: 25px;
+    }
+    .marginMedium {
+        margin-right: 20px;
+    }
+}
+
+@media ( max-width: 1030px) {
+    .detailsHolder {
+        font-size: 18px;
+    }
+    .marginLarge {
+        margin-right: 20px;
+    }
+    .marginMedium {
+        margin-right: 15px;
+    }
+}
+
+@media ( max-width: 970px) {
+    .detailsHolder {
+        font-size: 17px;
+    }
+    .marginLarge {
+        margin-right: 35px;
+    }
+    .marginMedium {
+        margin-right: 20px;
+    }
+}
+
+@media ( max-width: 940px) {
+    .detailsHolder {
+        font-size: 15px;
+    }
+    .marginLarge {
+        margin-right: 30px;
+    }
+    .marginMedium {
+        margin-right: 18px;
+    }
+}
+
+@media ( max-width: 880px) {
+    .detailsHolder {
+        font-size: 15px;
+    }
+    .marginLarge {
+        margin-right: 25px;
+    }
+    .marginMedium {
+        margin-right: 20px;
+    }
+}
