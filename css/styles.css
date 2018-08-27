@@ -25,11 +25,13 @@ body {
 .logoHolder {
     width: 18%;
     margin-right: 15px;
+    background-color: white;
 }
 
 .logo {
     width: 100%;
     height: auto;
+    margin-top: 15px;
 }
 
 .headerText {
